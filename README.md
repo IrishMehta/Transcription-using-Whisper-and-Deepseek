@@ -33,7 +33,7 @@ This repository tries to improve the accuracy of transcription by combining Whis
 
 6. **Combining & Correcting**  
    - **Combining**: If Whisper’s segment transcription appears incomplete, it’s buffered until the next segment.  
-   - **Groq**: The incomplete/complete segments are sent to Groq’s large language model, which:  
+   - **Groq**: The incomplete/complete segments are sent to "deepseek-r1-distill-llama-70b" hosted on Groq’sservers, which:  
      1. Corrects grammar.  
      2. Adds punctuation.  
      3. Decides if the segment is complete.  
